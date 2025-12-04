@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, Linkedin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -48,6 +48,18 @@ const Contact = () => {
                 </div>
                 <span className="text-lg">New Delhi, India</span>
               </div>
+
+              <a
+                href="https://linkedin.com/in/agam-makhija-700454191"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4 text-gray-400 hover:text-primary transition-colors group"
+              >
+                <div className="p-3 rounded-lg bg-white/5 group-hover:bg-primary/20 transition-colors">
+                  <Linkedin size={24} />
+                </div>
+                <span className="text-lg">LinkedIn Profile</span>
+              </a>
             </div>
           </motion.div>
 

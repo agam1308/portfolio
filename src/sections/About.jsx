@@ -10,6 +10,9 @@ import {
   Database,
   Layout,
   Server,
+  User,
+  Globe,
+  Heart,
 } from "lucide-react";
 
 const skillCategories = [
@@ -43,7 +46,7 @@ const skillCategories = [
       "MySQL",
       "Git",
       "Postman",
-      "GenAI (ChatGPT, Gemini)",
+      "GenAI (ChatGPT, DeepSeek, Copilot, Gemini)",
       "Clerk",
       "Convex",
     ],
@@ -268,6 +271,53 @@ const About = () => {
                 <p className="text-gray-300 text-sm">{achievement}</p>
               </div>
             ))}
+          </div>
+        </motion.div>
+
+        {/* Personal Interests */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-16"
+        >
+          <div className="flex items-center gap-3 mb-8">
+            <User className="text-primary" size={28} />
+            <h3 className="text-2xl font-bold">Personal Interests</h3>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="glass p-6 rounded-xl border border-white/5">
+              <h4 className="text-lg font-bold mb-4 flex items-center gap-2">
+                <Globe size={20} className="text-secondary" /> Languages
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {["English (Fluent)", "Hindi (Fluent)"].map((lang) => (
+                  <span
+                    key={lang}
+                    className="text-sm px-3 py-1 rounded-full bg-white/5 text-gray-300"
+                  >
+                    {lang}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="glass p-6 rounded-xl border border-white/5">
+              <h4 className="text-lg font-bold mb-4 flex items-center gap-2">
+                <Heart size={20} className="text-red-500" /> Hobbies
+              </h4>
+              <div className="flex flex-wrap gap-2">
+                {["Music", "Gaming", "Workout"].map((hobby) => (
+                  <span
+                    key={hobby}
+                    className="text-sm px-3 py-1 rounded-full bg-white/5 text-gray-300"
+                  >
+                    {hobby}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>

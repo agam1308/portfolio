@@ -11,24 +11,10 @@ const projects = [
     links: { code: "https://github.com/agam1308" },
   },
   {
-    title: "Music App",
-    description: "Music player and user-friendly UI.",
-    tags: ["React", "Bootstrap", "REST API", "Saavn API", "Git"],
-    image: `${import.meta.env.BASE_URL}projects/music-app.jpg`,
-    links: { code: "https://github.com/agam1308" },
-  },
-  {
     title: "Password Generator",
     description: "Dynamic password generation tool.",
     tags: ["HTML", "CSS", "JavaScript", "React", "Git"],
     image: `${import.meta.env.BASE_URL}projects/password-generator.jpg`,
-    links: { code: "https://github.com/agam1308" },
-  },
-  {
-    title: "To-Do List",
-    description: "Task management application.",
-    tags: ["HTML", "CSS", "JavaScript", "React", "Git"],
-    image: `${import.meta.env.BASE_URL}projects/todo-list.jpg`,
     links: { code: "https://github.com/agam1308" },
   },
   {
@@ -43,6 +29,30 @@ const projects = [
     description: "Implemented dynamic paragraph modification.",
     tags: ["HTML", "CSS", "React.js", "Git"],
     image: `${import.meta.env.BASE_URL}projects/paragraph-mod.jpg`,
+    links: { code: "https://github.com/agam1308" },
+  },
+  {
+    title: "Fintech app",
+    description:
+      "Built a finance-styled task-management web app featuring optimized Next.js routing, reusable UI components, and responsive design.",
+    tags: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Git"],
+    image: `${import.meta.env.BASE_URL}projects/todo-list.jpg`,
+    links: { code: "https://github.com/agam1308" },
+  },
+  {
+    title: "Ecommerce App",
+    description:
+      "Developed a responsive ecommerce platform with dynamic product pages, optimized routing, and clean UI components.",
+    tags: ["Next.js", "React", "JavaScript", "CSS", "Git"],
+    image: `${import.meta.env.BASE_URL}projects/music-app.jpg`,
+    links: { code: "https://github.com/agam1308" },
+  },
+  {
+    title: "ShopHub",
+    description:
+      "Implemented a secure authentication flow (JWT/session-based), dynamic product pages, and a polished ecommerce UI with optimized Next.js routing.",
+    tags: ["Next.js", "React", "JavaScript", "CSS", "Git"],
+    image: `${import.meta.env.BASE_URL}projects/login-system.jpg`,
     links: { code: "https://github.com/agam1308" },
   },
 ];
