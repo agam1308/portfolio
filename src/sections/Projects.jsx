@@ -8,7 +8,7 @@ const projects = [
     description: "Secure authentication system.",
     tags: ["Java", "JSP", "MySQL", "Hibernate", "Spring Boot", "Git"],
     image: `${import.meta.env.BASE_URL}projects/login-system.jpg`,
-    links: { code: "https://github.com/agam1308/Login-System", live: "https://agam1308.github.io/Login-System" },
+    links: { code: "https://github.com/agam1308/Login-Page-SB", live: "https://agam1308.github.io/Login-Page-SB" },
   },
   {
     title: "Password Generator",
@@ -37,7 +37,7 @@ const projects = [
       "Built a finance-styled task-management web app featuring optimized Next.js routing, reusable UI components, and responsive design.",
     tags: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Git"],
     image: `${import.meta.env.BASE_URL}projects/todo-list.jpg`,
-    links: { code: "https://github.com/agam1308/Fintech-App", live: "https://agam1308.github.io/Fintech-App" },
+    links: { code: "https://github.com/agam1308/Fintech-App", live: "https://fintech-app.vercel.app/" },
   },
   {
     title: "Ecommerce App",
@@ -45,7 +45,7 @@ const projects = [
       "Developed a responsive ecommerce platform with dynamic product pages, optimized routing, and clean UI components.",
     tags: ["Next.js", "React", "JavaScript", "CSS", "Git"],
     image: `${import.meta.env.BASE_URL}projects/music-app.jpg`,
-    links: { code: "https://github.com/agam1308/Ecommerce-App", live: "https://agam1308.github.io/Ecommerce-App" },
+    links: { code: "https://github.com/agam1308/E-commerce-nextjs", live: "https://agam1308.github.io/E-commerce-nextjs" },
   },
   {
     title: "ShopHub",
@@ -53,7 +53,7 @@ const projects = [
       "Implemented a secure authentication flow (JWT/session-based), dynamic product pages, and a polished ecommerce UI with optimized Next.js routing.",
     tags: ["Next.js", "React", "JavaScript", "CSS", "Git"],
     image: `${import.meta.env.BASE_URL}projects/login-system.jpg`,
-    links: { code: "https://github.com/agam1308/ShopHub", live: "https://agam1308.github.io/ShopHub" },
+    links: { code: "https://github.com/agam1308/webshop", live: "https://agam1308.github.io/webshop" },
   },
 ];
 

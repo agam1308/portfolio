@@ -1,0 +1,158 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>Agam Makhija Resume</title>
+<style>
+    body {
+        font-family: 'Calibri', 'Arial', sans-serif;
+        font-size: 11pt;
+        color: #000000;
+    }
+    h1 {
+        font-size: 24pt;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5pt;
+    }
+    .subtitle {
+        text-align: center;
+        font-size: 14pt;
+        font-weight: bold;
+        color: #2E74B5;
+        margin-bottom: 5pt;
+    }
+    .contact {
+        text-align: center;
+        font-size: 10pt;
+        margin-bottom: 20pt;
+    }
+    h2 {
+        font-size: 12pt;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 2pt;
+        margin-top: 15pt;
+        margin-bottom: 10pt;
+        color: #2E74B5;
+    }
+    h3 {
+        font-size: 11pt;
+        font-weight: bold;
+        margin-bottom: 2pt;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 5pt;
+    }
+    ul {
+        margin-top: 0;
+        margin-bottom: 5pt;
+        padding-left: 20pt;
+    }
+    li {
+        margin-bottom: 2pt;
+    }
+    a {
+        color: #0563C1;
+        text-decoration: underline;
+    }
+    .header-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .right {
+        float: right;
+        font-weight: normal;
+        font-size: 10pt;
+    }
+    .clear {
+        clear: both;
+    }
+</style>
+</head>
+<body>
+
+<h1>Agam Makhija</h1>
+<div class="subtitle">Full-Stack Developer</div>
+<div class="contact">
+    New Delhi, India | <a href="mailto:agamy2k@gmail.com">agamy2k@gmail.com</a> | +91 99585 01482<br>
+    GitHub: <a href="https://github.com/agam1308">github.com/agam1308</a>
+</div>
+
+<h2>Professional Summary</h2>
+<p>Full-Stack Developer with 2+ years of experience building and shipping production web applications using Java, Spring Boot, React, Next.js, Node.js, and MySQL. Strong focus on performance optimization, secure authentication, clean architecture, and scalable UI systems. Experienced in owning features end-to-end from requirements to deployment.</p>
+
+<h2>Work Experience</h2>
+
+<div>
+    <h3>Full-Stack Developer (Contract) – CyberXplore <span class="right">Apr 2022 – Apr 2024</span></h3>
+    <ul>
+        <li>Owned end-to-end development of production features from requirement analysis to deployment, improving product usability.</li>
+        <li>Developed reusable React components and responsive layouts, enabling scalable front-end architecture.</li>
+        <li>Integrated and optimized REST APIs using Next.js, Node.js, and SQL, reducing data-fetch latency by 30%.</li>
+        <li>Resolved UI/UX and performance bottlenecks, cutting page load times by 25%.</li>
+        <li>Collaborated with cross-functional teams in an Agile environment using Git and code reviews.</li>
+    </ul>
+</div>
+
+<div>
+    <h3>Full-Stack Developer Intern – Stockmed Network Pvt. Ltd. <span class="right">May 2025 – Oct 2025</span></h3>
+    <ul>
+        <li>Improved application performance by reducing page load time by 20% through UI optimization in React.</li>
+        <li>Built and integrated RESTful APIs using Node.js, Java, and MySQL, increasing data retrieval speed by 25%.</li>
+        <li>Implemented secure authentication and session management using Spring Boot Security and Hibernate.</li>
+        <li>Reduced post-deployment bugs by 15% through debugging, code reviews, and Git-based workflows.</li>
+    </ul>
+</div>
+
+<h2>Projects</h2>
+
+<div>
+    <h3>ShopHub – E-commerce Platform</h3>
+    <p><i>JWT/session-based authentication, dynamic product pages, optimized Next.js routing.</i><br>
+    <b>Tech:</b> Next.js, React, JavaScript, CSS<br>
+    GitHub: <a href="https://github.com/agam1308/ShopHub">github.com/agam1308/ShopHub</a> | Live: <a href="https://agam1308.github.io/ShopHub">agam1308.github.io/ShopHub</a></p>
+</div>
+
+<div>
+    <h3>Fintech Task Management App</h3>
+    <p><i>Finance-styled task manager with optimized routing and clean UI architecture.</i><br>
+    <b>Tech:</b> React, Next.js, JavaScript, CSS<br>
+    GitHub: <a href="https://github.com/agam1308/Fintech-App">github.com/agam1308/Fintech-App</a> | Live: <a href="https://agam1308.github.io/Fintech-App">agam1308.github.io/Fintech-App</a></p>
+</div>
+
+<div>
+    <h3>Login System</h3>
+    <p><i>Secure authentication system using Spring Boot, Hibernate, and MySQL.</i><br>
+    <b>Tech:</b> Java, Spring Boot, Hibernate, MySQL<br>
+    GitHub: <a href="https://github.com/agam1308/Login-System">github.com/agam1308/Login-System</a> | Live: <a href="https://agam1308.github.io/Login-System">agam1308.github.io/Login-System</a></p>
+</div>
+
+<div>
+    <h3>Password Generator</h3>
+    <p><i>Dynamic password generation tool built with React and JavaScript.</i><br>
+    <b>Tech:</b> React, JavaScript, HTML, CSS<br>
+    GitHub: <a href="https://github.com/agam1308/Password-Generator">github.com/agam1308/Password-Generator</a> | Live: <a href="https://agam1308.github.io/Password-Generator">agam1308.github.io/Password-Generator</a></p>
+</div>
+
+<h2>Skills</h2>
+<p>
+<b>Languages:</b> Java, JavaScript<br>
+<b>Frontend:</b> React.js, Next.js, HTML, CSS, Bootstrap<br>
+<b>Backend:</b> Spring Boot, Hibernate, Node.js, Express.js, REST APIs<br>
+<b>Database:</b> MySQL<br>
+<b>Tools:</b> Git, Postman<br>
+<b>Other:</b> Object-Oriented Programming, Performance Optimization, Secure Authentication
+</p>
+
+<h2>Education</h2>
+<p>
+<b>Master of Computer Applications (MCA)</b> – IGNOU (2025)<br>
+<b>Bachelor of Computer Applications (BCA)</b> – GGSIPU (2021)<br>
+<b>Class XII (CBSE)</b> – V.V.D.A.V. Public School (2018)<br>
+<b>Class X (CBSE)</b> – V.V.D.A.V. Public School (2016)
+</p>
+
+</body>
+</html>
