@@ -174,6 +174,41 @@ const About = () => {
                   </li>
                 </ul>
               </div>
+
+              <div className="relative">
+                <div className="absolute -left-[39px] bg-black p-1">
+                  <div className="w-4 h-4 rounded-full bg-primary/50" />
+                </div>
+                <span className="text-sm text-primary font-mono mb-2 block">
+                  April 2022 - April 2024
+                </span>
+                <h4 className="text-xl font-bold mb-1">
+                  Full Stack Developer (Contract)
+                </h4>
+                <p className="text-gray-400 text-sm mb-4">
+                  CyberXplore
+                </p>
+                <ul className="list-disc list-outside ml-4 text-gray-400 text-sm space-y-2">
+                  <li>
+                    Built and maintained production-level web applications using HTML, CSS, Bootstrap, and JavaScript, ensuring clean UI, stable performance, and smooth user experience across devices.
+                  </li>
+                  <li>
+                    Developed responsive layouts and reusable UI components in React.js, contributing to scalable front-end architecture.
+                  </li>
+                  <li>
+                    Integrated and optimized REST APIs using Next.js, Node.js, and SQL, improving system reliability and reducing data-fetch latency.
+                  </li>
+                  <li>
+                    Worked on end-to-end feature development from requirement analysis to deployment enhancing product usability and internal workflow efficiency.
+                  </li>
+                  <li>
+                    Diagnosed and resolved UI/UX issues, reduced page load times, and improved interaction flows through structured debugging and performance tuning.
+                  </li>
+                  <li>
+                    Collaborated with cross-functional teams using Git, participated in code reviews, wrote clean modular code, and followed Agile development practices.
+                  </li>
+                </ul>
+              </div>
             </div>
           </motion.div>
 

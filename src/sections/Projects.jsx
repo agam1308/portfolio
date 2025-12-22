@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Github } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
@@ -8,28 +8,28 @@ const projects = [
     description: "Secure authentication system.",
     tags: ["Java", "JSP", "MySQL", "Hibernate", "Spring Boot", "Git"],
     image: `${import.meta.env.BASE_URL}projects/login-system.jpg`,
-    links: { code: "https://github.com/agam1308" },
+    links: { code: "https://github.com/agam1308/Login-System", live: "https://agam1308.github.io/Login-System" },
   },
   {
     title: "Password Generator",
     description: "Dynamic password generation tool.",
     tags: ["HTML", "CSS", "JavaScript", "React", "Git"],
     image: `${import.meta.env.BASE_URL}projects/password-generator.jpg`,
-    links: { code: "https://github.com/agam1308" },
+    links: { code: "https://github.com/agam1308/Password-Generator", live: "https://agam1308.github.io/Password-Generator" },
   },
   {
     title: "Shooting Aim",
     description: "Designed an interactive web-based shooting game.",
     tags: ["HTML", "CSS", "JavaScript", "Git"],
     image: `${import.meta.env.BASE_URL}projects/shooting-aim.jpg`,
-    links: { code: "https://github.com/agam1308" },
+    links: { code: "https://github.com/agam1308/Shooting-Aim", live: "https://agam1308.github.io/Shooting-Aim" },
   },
   {
     title: "Paragraph Modification",
     description: "Implemented dynamic paragraph modification.",
     tags: ["HTML", "CSS", "React.js", "Git"],
     image: `${import.meta.env.BASE_URL}projects/paragraph-mod.jpg`,
-    links: { code: "https://github.com/agam1308" },
+    links: { code: "https://github.com/agam1308/Paragraph-Modification", live: "https://agam1308.github.io/Paragraph-Modification" },
   },
   {
     title: "Fintech app",
@@ -37,7 +37,7 @@ const projects = [
       "Built a finance-styled task-management web app featuring optimized Next.js routing, reusable UI components, and responsive design.",
     tags: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Git"],
     image: `${import.meta.env.BASE_URL}projects/todo-list.jpg`,
-    links: { code: "https://github.com/agam1308" },
+    links: { code: "https://github.com/agam1308/Fintech-App", live: "https://agam1308.github.io/Fintech-App" },
   },
   {
     title: "Ecommerce App",
@@ -45,7 +45,7 @@ const projects = [
       "Developed a responsive ecommerce platform with dynamic product pages, optimized routing, and clean UI components.",
     tags: ["Next.js", "React", "JavaScript", "CSS", "Git"],
     image: `${import.meta.env.BASE_URL}projects/music-app.jpg`,
-    links: { code: "https://github.com/agam1308" },
+    links: { code: "https://github.com/agam1308/Ecommerce-App", live: "https://agam1308.github.io/Ecommerce-App" },
   },
   {
     title: "ShopHub",
@@ -53,7 +53,7 @@ const projects = [
       "Implemented a secure authentication flow (JWT/session-based), dynamic product pages, and a polished ecommerce UI with optimized Next.js routing.",
     tags: ["Next.js", "React", "JavaScript", "CSS", "Git"],
     image: `${import.meta.env.BASE_URL}projects/login-system.jpg`,
-    links: { code: "https://github.com/agam1308" },
+    links: { code: "https://github.com/agam1308/ShopHub", live: "https://agam1308.github.io/ShopHub" },
   },
 ];
 
@@ -79,8 +79,9 @@ const cardVariants = {
 const ProjectCard = ({ project, variants }) => {
   return (
     <motion.div
+      onClick={() => window.open(project.links.code, "_blank")}
       variants={variants}
-      className="group relative rounded-2xl overflow-hidden glass hover:bg-white/5 transition-colors"
+      className="group relative rounded-2xl overflow-hidden glass hover:bg-white/5 transition-colors cursor-pointer flex flex-col h-full"
     >
       <div className="aspect-video overflow-hidden">
         <img
@@ -90,7 +91,7 @@ const ProjectCard = ({ project, variants }) => {
         />
       </div>
 
-      <div className="p-6">
+      <div className="p-6 flex flex-col flex-grow">
         <div className="flex flex-wrap gap-2 mb-4">
           {project.tags.map((tag) => (
             <span
@@ -105,17 +106,27 @@ const ProjectCard = ({ project, variants }) => {
         <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
           {project.title}
         </h3>
-        <p className="text-gray-400 text-sm mb-6 line-clamp-2">
+        <p className="text-gray-400 text-sm mb-6 line-clamp-2 flex-grow">
           {project.description}
         </p>
 
-        <div className="flex gap-4">
-          <a
-            href={project.links.code}
+        <div className="flex gap-4 items-center">
+          <span
             className="flex items-center gap-2 text-sm font-medium text-gray-400 hover:text-white transition-colors"
           >
             <Github size={16} /> Code
-          </a>
+          </span>
+          {project.links.live && (
+            <a
+              href={project.links.live}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors ml-auto"
+            >
+              <ExternalLink size={16} /> Live Demo
+            </a>
+          )}
         </div>
       </div>
     </motion.div>
