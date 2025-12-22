@@ -8,7 +8,7 @@ const projects = [
     description: "Secure authentication system.",
     tags: ["Java", "JSP", "MySQL", "Hibernate", "Spring Boot", "Git"],
     image: `${import.meta.env.BASE_URL}projects/login-system.jpg`,
-    links: { code: "https://github.com/agam1308/Login-Page-SB", live: "https://agam1308.github.io/Login-Page-SB" },
+    links: { code: "https://github.com/agam1308/Login-Page-SB" },
   },
   {
     title: "Password Generator",
@@ -37,7 +37,7 @@ const projects = [
       "Built a finance-styled task-management web app featuring optimized Next.js routing, reusable UI components, and responsive design.",
     tags: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Git"],
     image: `${import.meta.env.BASE_URL}projects/todo-list.jpg`,
-    links: { code: "https://github.com/agam1308/Fintech-App", live: "https://fintech-app.vercel.app/" },
+    links: { code: "https://github.com/agam1308/Fintech-App", live: "https://agam1308.github.io/fintech-demo/" },
   },
   {
     title: "Ecommerce App",
