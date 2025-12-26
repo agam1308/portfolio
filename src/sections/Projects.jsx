@@ -37,7 +37,7 @@ const projects = [
       "Built a finance-styled task-management web app featuring optimized Next.js routing, reusable UI components, and responsive design.",
     tags: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Git"],
     image: `${import.meta.env.BASE_URL}projects/todo-list.jpg`,
-    links: { code: "https://github.com/agam1308/Fintech-App", live: "https://agam1308.github.io/fintech-demo/" },
+    links: { code: "https://github.com/agam1308/fintech-demo", live: "https://agam1308.github.io/fintech-demo/" },
   },
   {
     title: "Ecommerce App",
