@@ -148,7 +148,7 @@ const About = () => {
                   April 2024 - Present
                 </span>
                 <h4 className="text-xl font-bold mb-1">
-                  Freelance / Project-Based Contributor (AI & Data Tasks)
+                 AI Model Evaluator
                 </h4>
                 <p className="text-gray-400 text-sm mb-4">
                   Alignerr
