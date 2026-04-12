@@ -55,6 +55,14 @@ const projects = [
     image: `${import.meta.env.BASE_URL}projects/login-system.jpg`,
     links: { code: "https://github.com/agam1308/webshop", live: "https://agam1308.github.io/webshop" },
   },
+  {
+    title: "Nexus Dashboard",
+    description:
+      "A comprehensive data management and analytics dashboard built with Next.js, Redux, and MySQL.",
+    tags: ["Next.js", "Redux", "MySQL", "JavaScript", "CSS", "Git"],
+    image: `${import.meta.env.BASE_URL}projects/nexus-dashboard.jpg`,
+    links: { code: "https://github.com/agam1308/data-management-and-analytics", live: "https://agam1308.github.io/data-management-and-analytics/" },
+  },
 ];
 
 const containerVariants = {

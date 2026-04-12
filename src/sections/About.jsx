@@ -145,6 +145,38 @@ const About = () => {
                   <div className="w-4 h-4 rounded-full bg-primary" />
                 </div>
                 <span className="text-sm text-primary font-mono mb-2 block">
+                  April 2024 - Present
+                </span>
+                <h4 className="text-xl font-bold mb-1">
+                  Freelance / Project-Based Contributor (AI & Data Tasks)
+                </h4>
+                <p className="text-gray-400 text-sm mb-4">
+                  Alignerr
+                </p>
+                <ul className="list-disc list-outside ml-4 text-gray-400 text-sm space-y-2">
+                  <li>
+                    Contributed to AI training and data annotation tasks, ensuring high-quality outputs aligned with project guidelines.
+                  </li>
+                  <li>
+                    Worked on language-based tasks including content evaluation, prompt refinement, and response validation using generative AI tools.
+                  </li>
+                  <li>
+                    Demonstrated strong attention to detail while reviewing outputs for accuracy, consistency, and relevance.
+                  </li>
+                  <li>
+                    Adapted to evolving project requirements and guidelines, maintaining efficiency and quality under tight deadlines.
+                  </li>
+                  <li>
+                    Utilized problem-solving and analytical thinking to improve task outcomes and maintain data integrity.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="relative">
+                <div className="absolute -left-[39px] bg-black p-1">
+                  <div className="w-4 h-4 rounded-full bg-primary/50" />
+                </div>
+                <span className="text-sm text-primary font-mono mb-2 block">
                   May 2025 - Oct 2025
                 </span>
                 <h4 className="text-xl font-bold mb-1">
