@@ -60,7 +60,7 @@ const projects = [
     description:
       "A comprehensive data management and analytics dashboard built with Next.js, Redux, and MySQL.",
     tags: ["Next.js", "Redux", "MySQL", "JavaScript", "CSS", "Git"],
-    image: `${import.meta.env.BASE_URL}projects/nexus-dashboard.jpg`,
+    image: `${import.meta.env.BASE_URL}projects/nexus-dashboard.svg`,
     links: { code: "https://github.com/agam1308/data-management-and-analytics", live: "https://agam1308.github.io/data-management-and-analytics/" },
   },
 ];
